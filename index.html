@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+    
+    <style>
+        
+header{
+    text-align: right;
+}    
+.container{
+    display: grid;
+    justify-content: center;
+    
+}
+body{
+    padding:10px 100px;
+    margin:20px 400px;
+    border: 2px solid black;
+}
+input,select{
+    font-size: 15px;
+    padding: 10px 300px 10px 10px;
+    margin: 10px 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+label{
+    font-family: sans-serif;
+    
+}
+button{
+    padding: 10px 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+p{
+    font-size: 15px;
+    color: grey;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <label>Already have an account? <a href="#"> Sign in➡️</a></label>
+    </header>
+    <div class="container">
+    <form>
+        <h2>Sign up to GitHub</h2>
+        <label>Email</label><br>
+        <input type="email" placeholder="Email" required><br><br>
+        <label>Password</label><br>
+        <input type="password" placeholder="Password" required/><br>
+        <p>Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter.</p>
+        <label>Username</label><br>
+        <input type="text" placeholder="Username" required/><br>
+        <p>Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen.</p>
+        <label>Your Country/Region</label><br>
+        <select required>
+            <option>Afghanistan</option>
+            <option>Aland></option>
+            <option>Albani</option>
+            <option>Algeria</option>
+            <option>Angora</option>
+            <option>Bangladesh</option>
+            <option>China</option>
+            <option>Dubai</option>
+            <option>Egypt</option>
+            <option>France</option>
+            <option>Georgia</option>
+            <option>Hong Kong</option>
+            <option>India</option>
+        </select>
+        <p>For compliance reasons, we're required to collect country information to send you occasional updates and announcements.</p>
+        <label>Email preferences</label><br>
+        <input type="checkbox" required>
+        <label>Receive occasional product updates and announcements</label><br>
+
+        <button>Continue›</button>
+        
+    </form>
+
+    <footer>
+        <p>By creating an account, you agree to the <a href="#">Terms of Service</a>. For more information about GitHub's 
+            privacy practices, see the <a href="#">Privacy Statement</a>. We'll occasionally send you account-related emails.</p>
+    </footer>
+    </div>
+</body>
+</html>
