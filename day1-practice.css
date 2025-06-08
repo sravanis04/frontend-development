@@ -60,3 +60,9 @@ body {
     border: 1px solid white;
     border-radius: 4px;
 }
+
+.forgot-link{
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+}
