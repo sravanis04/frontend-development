@@ -1,0 +1,21 @@
+ .card-container {
+     /*YOURTASK:Makethisaflexcontainer*/
+     display: flex;
+     /*YOURTASK:Allowwrappingtonextline*/
+    flex-wrap: wrap;
+     /*YOURTASK:Addspacebetweencards*/
+     gap: 2px;
+     padding: 2rem;
+ }
+
+ .card {
+     /*YOURTASK:Makeeachcardtakeequalspace*/
+     align-items: stretch;
+     /*YOURTASK:Setminimumwidthbeforewrapping*/
+     min-width: 200px;
+     background: white;
+     border: 1pxsolid#ddd;
+     border-radius: 8px;
+     padding: 1rem;
+     text-align: center;
+ }

@@ -1,0 +1,18 @@
+ .center-container {
+     /*YOURTASK:Makethisaflexcontainer*/
+     display: flex;
+     /*YOURTASK:Centerhorizontally*/
+     justify-content: center;
+     /*YOURTASK:Centervertically*/
+     align-items: center;
+     height: 100vh;
+     /*Fullscreenheight*/
+     background-color: #f0f0f0;
+ }
+
+ .centered-content {
+     background: white;
+     padding: 2rem;
+     border-radius: 8px;
+     text-align: center;
+ }

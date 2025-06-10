@@ -1,0 +1,85 @@
+ /*TASK-1*/
+ /*Complete these Flexbox implementations*/
+ .page-container {
+     /*YOURTASK:Fullheight layout with header/main/footer*/
+     height: 100vh;
+ }
+
+ .header {
+     /*YOURTASK:Center the logo horizontally*/
+     display: flex;
+     justify-content: center;
+ }
+
+ .main-content {
+     /*YOURTASK:Center login box both horizontally and vertically*/
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /*YOURTASK:Take up remaining space*/
+     flex-grow: 1;
+ }
+
+ .login-form {
+     /*YOURTASK:Stack form elements vertically with consistent spacing*/
+     display: flex;
+     flex-direction: column;
+     gap: 1.5px;
+ }
+
+ .form-group {
+     /*YOURTASK:Stack label and input with small gap*/
+     display: flex;
+     flex-direction: column;
+     gap: 1px;
+ }
+
+ .help-section,
+ .signup-section {
+     /*YOURTASK:Center text content*/
+
+     text-align: center;
+ }
+
+ .footer {
+     /*YOURTASK:Center footer text*/
+     text-align: center;
+ }
+
+ /*TASK -2 */
+
+ @media(max-width:768px) {
+     /*YOURTASK:Adjust spacing and sizes for tablet*/
+     .header{
+        padding: 1.5rem 1rem;
+     }
+     .main-content{
+        padding: 1rem;
+     }
+     .login-box{
+        pad: 2rem;
+     }
+     .brand-name{
+        padding: 2rem;
+     }
+ }
+
+ @media(max-width:480px) {
+     /*YOURTASK:Adjust for mobile phones*/
+     /*Consider changing any flex-direction if needed*/
+     .header{
+        padding: 1rem;
+     }
+     .main-content{
+        padding: 1rem 0.5rem;
+     }
+     .login-box{
+        padding: 1.5rem;
+     }
+     .brand-name{
+        padding: 1.8rem;
+     }
+    .login-title{
+        font-size: 1.5rem;
+    }
+ }

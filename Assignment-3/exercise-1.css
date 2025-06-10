@@ -1,0 +1,28 @@
+ .navbar {
+     /*YOURTASK:Makethisaflexcontainer*/
+     display: flex;
+     /*YOURTASK:Alignitemsverticallyincenter*/
+     align-items: center;
+     /*YOURTASK:Spreadlogo,links,andbuttonapart*/
+     justify-content: space-around;
+     background-color: #333;
+     color: white;
+     padding: 1rem;
+ }
+
+ .nav-links {
+     /*YOURTASK:Makethisaflexcontainer*/
+     display: flex;
+     /*YOURTASK:Removedefaultliststyling*/
+     list-style: none;
+     gap: 1px;
+     width: 200px;
+     margin: 0;
+     padding: 0;
+ }
+
+ .nav-linksli {
+     /*YOURTASK:Addspacebetweenmenuitems*/
+     justify-content: space-between;
+     margin: 0.1rem;
+ }
