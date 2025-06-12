@@ -1,0 +1,24 @@
+.container{
+    text-align: center;
+}
+.card{
+    float: left;
+    padding: 10px 15px;
+    width: 25%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.content, .colour{
+    color: grey;
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+}
