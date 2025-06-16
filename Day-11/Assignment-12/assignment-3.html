@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Scope Practice</title>
+</head>
+<body>
+    <script>
+        let message = "Hello";
+        
+        {
+            let message = "Hi";
+            console.log("Inside:", message); // Inside: Hi
+        }
+        
+        console.log("Outside:", message); // Outside: Hello
+
+    </script>
+</body>
+</html>
